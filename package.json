@@ -2,9 +2,9 @@
   "name": "reactjs",
   "version": "1.0.0",
   "description": "",
-
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel React.html",
+    "build": "parcel build React.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/sneha033/Reactjs#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
@@ -24,8 +26,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 5 versions"
   ]
-
 }
